@@ -1,0 +1,18 @@
+main{
+    width: 90%;
+    clear: both;
+    padding: 3%;
+}
+
+#info{
+    width: 100%;
+    border: 1px solid #f3f5f6;
+}
+
+.titulo{
+    background-color: #f3f5f6    ;
+}
+
+th ,td {
+    border: 1px solid #f3f5f6;
+}

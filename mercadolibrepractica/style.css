@@ -8,14 +8,16 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+ body{
+     margin:0;
+ }
 .principal{
     background-color: #fff059;
     height: 250px;
 }
 
 .logo{
-    margin-left: 360px;
+    margin-left: 10px;
     padding-top: 20px;   
 }
 
@@ -38,7 +40,8 @@
     width: 424px;
     height: 278px;
     border-radius: 5px;
-    margin-left: 730px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative; 
     top: -130px;   
   }
@@ -84,13 +87,19 @@
    font-weight: 600;
   }
 
+  footer{
+      text-align: center;
+  }
+
   .priv{
      padding-top: 30px;
-    margin-left: 850px;
+     margin-left: auto;
+     margin-right: auto;
     color: black;
   }
 
   .copyright{
-    margin-left: 740px;
+    margin-left: auto;
+    margin-right: auto;
     color: #e6e6e6;
   }

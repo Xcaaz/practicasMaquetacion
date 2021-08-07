@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ body{
+     margin:0;
+ }
+.principal{
+    background-color: #fff059;
+    height: 250px;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 20px;   
+}
+
+.inte{
+    display: inline;
+    margin-left: 1000px;
+}
+
+.color-gris{
+    background-color: #e6e6e6;
+    height: 600px;
+    margin-top: -30px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    width: 424px;
+    height: 278px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    top: -130px;   
+  }
+  
+  .saludo1{
+    position: relative; 
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+ 
+  .button {
+    background-color: #338FFF ; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    width: 320px;
+    font-weight: 600;
+  }
+  
+  .cuenta{
+   margin-top: 10px;
+   background-color: white ; 
+   border: none;
+   border-radius: 5px;
+   color: #338FFF;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-left: 50px;
+   width: 320px;
+   font-weight: 600;
+  }
+
+  footer{
+      text-align: center;
+  }
+
+  .priv{
+     padding-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+    color: black;
+  }
+
+  .copyright{
+    margin-left: auto;
+    margin-right: auto;
+    color: #e6e6e6;
+  }

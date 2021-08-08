@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+main{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 1200px;
+    height: 800px;
+}
+h2{
+    color: #333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.3;
+
+}
+
+.flex-container{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+ }
+
+.flex-item{  
+}
+
+.flex-container1{
+    display: flex;   
+     align-items: center;
+    padding-top: 30px;   
+ 
+}
+
+.flex-item1{ 
+  
+    
+}
+
+.title{
+    width: 670px;
+}
+
+.flex-item1:nth-child(3) {
+    align-self: flex-start;
+    /*background: pink;*/
+}
+.button {
+    background-color: #338FFF ; 
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    width:92px;
+   }
+  h2{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.3;
+  } 
+
+  .ven{
+    color: #E5E8E8 ;
+    position: relative;
+    top: -17px;
+  }
+  
+  hr{
+    background-color : #E5E8E8 ;
+  }
+
+  .oferta
+  {
+      color: grey;
+      text-decoration: line-through;
+  }
+  .price{
+    font-weight: bold;
+    font-size: 22px;
+  }
+.des{
+  color:#00a650;
+  font-size: 14px;
+}
+.int{
+    color:#00a650;
+  font-size: 14px;
+}
+.envio{
+  background-color: #e6f7ee;
+  color: #00a650;
+}
+.calif{
+    display: inline;
+}
+
+.logo{
+    display: inline;
+
+} 
+#full{
+    fill:#00a650;
+    height: 14px;
+}
+#heart-blue{
+    fill:#338FFF;
+    height: 30px;
+}
+#heart-trans{
+    fill:white;  
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

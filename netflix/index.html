@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" >  
-
     <title>Demo netflix</title>
 </head>
-<body>
-  <main>
-    <div class="op">
-    <nav>      
-      <div class="botones">
-      <div class="flexitem-nav logo"><img  width="160" height="42" src="images/netflix_logo.png" alt="logoNet" > </div>
+<body>  
+<main>
+  <header class="cabecera">
+    <nav>   
+      <div class="flexitem-nav logo">
+      <a href="#" ></a> <img  width="160" height="42" src="images/netflix_logo.png" alt="logoNet" ></a> </div>
       <div class="flexitem-nav idioma">
         <select name="idioma" id="idioma-select" class="idiom">         
           <option value="">Español</option>
@@ -21,86 +20,65 @@
         </select>
       </div>
       <div class="flexitem-nav secion"> 
-        <a href="%" class="redButton" >Iniciar sesión</a>
-      </div>
-     </div>
+         <button class="bot-nav"><a href="#">Iniciar sesión</a> </button>
+      </div>   
+    </nav>  
+
      <div class="titulo-prin"> 
-        <div class="flexitem-nav-tit title"><h1>Películas y series ilimitadas y mucho más. </h1></div>
-        <div class="flexitem-nav-tit subtitle"><h2>Disfruta donde quieras. Cancela cuando quieras.</h2></div>
+        <div class="flexitem-nav-tit title">      <h1 > Películas y series ilimitadas y mucho más. </h1>      </div>
+        <div class="flexitem-nav-tit subtitle">   <h2>Disfruta donde quieras. Cancela cuando quieras.</h2></div>
         <div class="flexitem-nav-tit title-email"><h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3></div>
         <div class="flexitem-nav-tit email">
-                        <div> <input type="email" name="email" id="email" class="email_input" placeholder="Email"></div>
-                        <div> <button class="btn-red"> <span > Comenzar > </span> </button> </div>
-
+                    <div class="email-item"><input type="email" name="email" id="email" class="email_input" placeholder="Email"></div> 
+                    <div class="email-item"><button class="btn-red"> <a href="#"> Comenzar >  </a> </button></div> 
         </div>
-     </div>
-    
-    </nav>  
-  </div>
-  <section>    
-    <article class="content" >
-            <div class="info">
-             <div class ="title"><h1> Disfruta en tu TV.</h1></div>
-             <div class="subtitle"><h2>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h2> 
-             </div> 
-            </div> 
-             <div class="img"> <img   src="images/net1.jpg" alt="net1" ></div> 
+     </div>    
+  </header>
+   <article class="content" >
+           <div class="flex-content info">
+             <div class ="title"  ><span> Disfruta en tu TV.</span></div>
+             <div class="subtitle"><span> Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</span></div> 
+           </div> 
+           <div class="flex-content img"> <img src="images/net1.jpg" alt="net1" > </div> 
     </article> 
+    
+    <article class="content" >      
+      <div class="flex-contentimg"> <img   src="images/mobile-0819.jpg" alt="mobile1" ></div>       
+      <div class="flex-content info">
+       <div class ="title"><span> Descarga tus series para verlas offline.</span></div>
+       <div class="subtitle"><span>Guarda tu contenido favorito y ten siempre algo para ver.</span> 
+       </div> 
+      </div>        
+     </article> 
 
-    <article class="content" >
-      <div class="img"> <img   src="images/mobile-0819.jpg" alt="mobile1" ></div> 
-      <div class="info">
-       <div class ="title"><h1> Descarga tus series para verlas offline.</h1></div>
-       <div class="subtitle"><h2>Guarda tu contenido favorito y ten siempre algo para ver.</h2> 
-       </div> 
-      </div>        
-     </article>  
-        
-     <article class="content" >
-      <div class="info">
-       <div class ="title"><h1> Disfruta donde quieras.</h1></div>
-       <div class="subtitle"><h2>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.</h2> 
-       </div> 
-      </div> 
-       <div class="img"> <img   src="images/net2.jpg" alt="net1" ></div> 
-     </article> 
-    
-    
-     <article class="content" >
-      <div class="img"> <img   src="images/kids.png" alt="mobile1" ></div> 
-      <div class="info">
-       <div class ="title"><h1> Crea perfiles para niños.</h1></div>
-       <div class="subtitle"><h2>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h2> 
-       </div> 
-      </div>        
-     </article> 
-      
-     <article class="content">
-     <div class ="preguntas">
-      <div ><h1>Preguntas frecuentes </h1></div>
-      <div class=list>
-       <ul>
-        <li ><a href="#">¿Qué es Netflix?                  </a><span> + </span> </li>
-        <li><a href="#">¿Cuánto cuesta Netflix?           +</a></li>
-        <li><a href="#">¿Dónde puedo ver Netflix?         +</a></li>
-        <li><a href="#">¿Cómo cancelo?                    +</a></li>
-        <li><a href="#">¿Qué puede ver en Netflix?        +</a></li>
-        <li><a href="#">¿Es bueno Netflix para los niños? +</a></li>
-      </ul>
-     </div>
+  <article>45555</article>
+  <article>66666</article>
+  
+  <article class="content">
+    <div class ="preguntas">
+     <div class="title"><span>Preguntas frecuentes </span></div>
      
-       <div class="flexitem-nav-tit title-email"><h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3></div>
-       <div class="flexitem-nav-tit email"> <input type="email" name="email" id="email" class="email_input" placeholder="Email">
-                                           <button class="btn-red" ><span > Comenzar > </span> </button>
-       </div>
-       
+     <div class=list>
+      <ul>
+       <li ><span class="question"> <a href="#">¿Qué es Netflix?</a></span> <span class="mas"> + </span> </li>
+       <li><a href="#">¿Cuánto cuesta Netflix?           +</a></li>
+       <li><a href="#">¿Dónde puedo ver Netflix?         +</a></li>
+       <li><a href="#">¿Cómo cancelo?                    +</a></li>
+       <li><a href="#">¿Qué puede ver en Netflix?        +</a></li>
+       <li><a href="#">¿Es bueno Netflix para los niños? +</a></li>
+     </ul>
+    </div>
+    
+    <div class="flexitem-nav-tit title-email"><h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3></div>
+    <div class="flexitem-nav-tit email">
+                <div class="email-item"><input type="email" name="email" id="email" class="email_input" placeholder="Email"></div> 
+                <div class="email-item"><button class="btn-red"> <a href="#"> Comenzar >  </a> </button></div> 
+    </div>
+   </div>
+   </article>  
+   <footer class="footer">
 
-    </div>
-    </article>      
-  </section>
-  <footer class="footer">
-    <div claas="llama" ><p >¿Preguntas? Llama al 800-062-2406 </p>
-    </div>
+    <div claas="llama" ><p >¿Preguntas? Llama al 800-062-2406 </p> </div>
    <div class="foot-list">
       <ul>
          <li> <a href="#">Preguntas frecuentes     </a>   </li> 
@@ -126,19 +104,21 @@
       <li> <a href="#">Comprar tarjetas de regalo </a></li>
       <li> <a href="#">Preferencias de cookies </a></li>
       <li> <a href="#">Avisos legales </a></li>
-    </ul>  
-    
+    </ul>      
    </div>    
+   
    <div class="flexitem-nav idioma">
     <select name="idioma" id="idioma-select" class="idiom">         
       <option value="">Español</option>
       <option value="dog">English</option>
     </select>
   </div>
+  
    <div class="copy">
     Netflix México
    </div>
   </footer>
+  
 </main>  
     
 </body>

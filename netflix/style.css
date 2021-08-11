@@ -67,7 +67,10 @@ margin-top: 6px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
+   
+    
  }
+
  .titulo-prin{
     display: flex;
     justify-content: space-between;
@@ -102,13 +105,15 @@ margin-top: 6px;
     font-size: 19.2px;
   }
 
-  .email{
-    display: inline;
+  .flexitem-nav-tit email{
+    display: flex;
+    align-content: flex-start;
   }
+ 
 
-.email_input{
-   /* width: 100%;*/
-    padding: 10px 10px;
+/*.email_input{
+    height: 70px;
+    width: 600px;
     box-sizing: border-box;
   
 }
@@ -119,9 +124,14 @@ margin-top: 6px;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 26px; 
-    heigh:10px;   
+   
+    height: 65px;
+    width: 185px;
  }
+ .btn-red span{
+    font-size: 30px;
+ }
+*/
  .content{
     display: flex;
     justify-content: center;
@@ -182,10 +192,7 @@ li a{
     align-content:flex-start;
     padding-top: 40px;
   }
-
-
-
-  .llamaP{
+ .llamaP{
     padding-top: -40px;
   }
 .foot-list{
@@ -194,8 +201,7 @@ li a{
 
 .foot-list ul li{
     margin: 3px 0;
-    border:none;
-  
+    border:none;  
     color:#000;   
 }
 

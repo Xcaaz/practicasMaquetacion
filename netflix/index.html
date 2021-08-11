@@ -12,7 +12,7 @@
   <header class="cabecera">
     <nav>   
       <div class="flexitem-nav logo">
-      <a href="#" ></a> <img  width="160" height="42" src="images/netflix_logo.png" alt="logoNet" ></a> </div>
+      <a href="#" ></a> <img  class="logoNet" width="190px" height="55px" src="images/netflix_logo.png" alt="logoNet" ></a> </div>
       <div class="flexitem-nav idioma">
         <select name="idioma" id="idioma-select" class="idiom">         
           <option value="">Español</option>
@@ -43,7 +43,7 @@
     </article> 
     
     <article class="content" >      
-      <div class="flex-contentimg"> <img   src="images/mobile-0819.jpg" alt="mobile1" ></div>       
+      <div class="flex-content img"> <img   src="images/mobile-0819.jpg" alt="mobile1" ></div>       
       <div class="flex-content info">
        <div class ="title"><span> Descarga tus series para verlas offline.</span></div>
        <div class="subtitle"><span>Guarda tu contenido favorito y ten siempre algo para ver.</span> 
@@ -51,8 +51,24 @@
       </div>        
      </article> 
 
-  <article>45555</article>
-  <article>66666</article>
+  <article class="content" >
+      <div class="flex-content info">
+       <div class ="title"><span> Disfruta donde quieras.</span></div>
+       <div class="subtitle"><span>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.</span> 
+       </div> 
+      </div> 
+       <div class="flex-content img"> <img   src="images/net2.jpg" alt="net2" ></div> 
+     </article> 
+
+
+    <article class="content" >
+      <div class="flex-content info img"> <img   src="images/kids.png" alt="mobile1" ></div> 
+      <div class="flex-content info">
+       <div class ="title"><span> Crea perfiles para niños.</span></div>
+       <div class="subtitle"><span>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</span> 
+       </div> 
+      </div>        
+     </article> 
   
   <article class="content">
     <div class ="preguntas">
@@ -60,46 +76,47 @@
      
      <div class=list>
       <ul>
-       <li ><span class="question"> <a href="#">¿Qué es Netflix?</a></span> <span class="mas"> + </span> </li>
-       <li><a href="#">¿Cuánto cuesta Netflix?           +</a></li>
-       <li><a href="#">¿Dónde puedo ver Netflix?         +</a></li>
-       <li><a href="#">¿Cómo cancelo?                    +</a></li>
-       <li><a href="#">¿Qué puede ver en Netflix?        +</a></li>
-       <li><a href="#">¿Es bueno Netflix para los niños? +</a></li>
+       <li ><span class="question"><a href="#">¿Qué es Netflix?</a></span> <span class="mas"> + </span> </li>
+       <li><span class="question"><a href="#">¿Cuánto cuesta Netflix?  + </span></a></li>
+       <li><span class="question"><a href="#">¿Dónde puedo ver Netflix?         +</span></a></li>
+       <li><span class="question"><a href="#">¿Cómo cancelo?                    +</a></span></li>
+       <li><span class="question"><a href="#">¿Qué puede ver en Netflix?        +</a></span></li>
+       <li><span class="question"><a href="#">¿Es bueno Netflix para los niños? +</a></span></li>
      </ul>
     </div>
     
-    <div class="flexitem-nav-tit title-email"><h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3></div>
-    <div class="flexitem-nav-tit email">
+    <div class="question title-email"><h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3></div>
+    <div class="question email">
                 <div class="email-item"><input type="email" name="email" id="email" class="email_input" placeholder="Email"></div> 
                 <div class="email-item"><button class="btn-red"> <a href="#"> Comenzar >  </a> </button></div> 
     </div>
    </div>
    </article>  
-   <footer class="footer">
 
-    <div claas="llama" ><p >¿Preguntas? Llama al 800-062-2406 </p> </div>
-   <div class="foot-list">
-      <ul>
+   <footer class="content"> 
+     <div class="footer">
+      <div claas="item-footer llama" ><p >¿Preguntas? Llama al 800-062-2406 </p> </div>
+      <div class="item-footer foot-list">
+       <ul>
          <li> <a href="#">Preguntas frecuentes     </a>   </li> 
          <li> <a href="#">Relaciones con inversionistas</a> </li>
          <li> <a href="#">Formas de ver  </a></li>
          <li> <a href="#">Información corporativa </a></li>
          <li> <a href="#">Solo en Netflix </a></li>
-      </ul>
-      <ul> 
+       </ul>
+       <ul> 
         <li> <a href="#">Centro de ayuda</a></li>
         <li> <a href="#">Empleo </a></li>
         <li> <a href="#">Términos de uso </a></li>
         <li> <a href="#">Contáctanos </a></li>
-      </ul>
-      <ul> 
+       </ul>
+       <ul> 
         <li> <a href="#">Cuenta</a></li>
         <li> <a href="#">Canjear tarjetas de regalo </a></li>
         <li> <a href="#">Privacidad </a></li>
         <li> <a href="#">Prueba de velocidad </a></li>
       </ul>  
-     <ul>
+      <ul>
       <li> <a href="#">Prensa</a></li>
       <li> <a href="#">Comprar tarjetas de regalo </a></li>
       <li> <a href="#">Preferencias de cookies </a></li>
@@ -107,16 +124,15 @@
     </ul>      
    </div>    
    
-   <div class="flexitem-nav idioma">
+   <div class="item-footer idioma">
     <select name="idioma" id="idioma-select" class="idiom">         
       <option value="">Español</option>
       <option value="dog">English</option>
     </select>
   </div>
-  
-   <div class="copy">
-    Netflix México
-   </div>
+
+    <div class="item-footer copy">    Netflix México   </div>
+  </div>
   </footer>
   
 </main>  

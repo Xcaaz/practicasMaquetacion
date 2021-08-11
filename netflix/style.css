@@ -1,18 +1,17 @@
+
 body{
     margin:0; 
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: black;
+   
 }
 main{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    width: 100%;
+
+
 }
-
-.img {
-    max-width: 100%;
-    height: auto;
-  }
-
 header{
     background-image: url("images/MX-es-20210719.jpg");
     background-color: rgb(0, 0, 0);
@@ -20,10 +19,10 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
 	border-bottom: 8px solid#222;  
-    max-width: 100%;
-    height: auto;
-    
+    width: 100%;
+    height: 700px;    
 }
+/*efecto oscurecido**/
 header:before {
 	content:'';
 	position: absolute;
@@ -32,10 +31,11 @@ header:before {
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
+    
 }
-
+/*ilumna letras*/
 header,nav,.titulo-prin  {
-    padding: 40px;
+    padding: 10px;
     position: relative;
 }
 
@@ -45,14 +45,14 @@ article{
 }
 nav{
     display: flex;
-    justify-content: space-between;
-    flex-grow: 2;
+    justify-content: space-between;      
  }
+ 
  .logo{
-    flex-grow: 13;
+    flex-grow:18 ;
  }
  .idioma{
-    flex-grow: 1;
+    flex-grow:1 ;
  } 
  .idiom{
     align-items:    center;
@@ -81,15 +81,18 @@ nav{
     color:    #ffffff;
     font-size:16px;
  } 
+
+ 
  .titulo-prin{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;          
     padding: 75px 0;
-    max-width: 950px;
+    
+    max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    
  }
  .flexitem-nav-tit{
    color: #FFFFFF;
@@ -99,8 +102,9 @@ nav{
     margin: 0 auto;
     text-align:center;    
   }
- h1 {     
-    font-size: 50px;
+ .flexitem-nav-tit.title>h1 {     
+    font-size: 64px;
+    text-align: center;
   }
  .subtitle{
     max-width: 640px
@@ -137,9 +141,9 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;    
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
  }
+
 
  .flex-content.info{
     display: flex;
@@ -149,8 +153,7 @@ h3{
 .flex-content.info>.title {     
     font-size: 50px;
     font-weight: bold;
-    text-align: left;
-  }
+   }
  .flex-content.info>.subtitle {   
     padding-top: 10px;  
     font-size: 26px;
@@ -159,7 +162,6 @@ h3{
  .flex-content.img> {   
     width: 35%;
  }
-
  .preguntas{
     display: flex;
     justify-content: center;    
@@ -171,12 +173,12 @@ h3{
     font-weight: bold;
     text-align: left;
   }
-.list{
-    width:100%;
-    
+.flexitem-nav-tit.email{
+    margin-bottom: 60px;
 }
-
-
+.list{
+    width:100%;    
+}
 .list ul li{
     margin: 3px 0;
     border:none;
@@ -185,45 +187,31 @@ h3{
     padding:20.8px 57.2px 20.8px 31.2px;
     
 }
-
 .list span{
-    text-align: center;
-    text-decoration: none;
-    color: whitesmoke;
     font-size: 26px;
     text-align:left
 }
-
 li a{
     text-align: center;
     text-decoration: none;
+    color: whitesmoke;
 }
-
-
 .footer {
-    display: flex;
-    flex-flow: column;
-    color: white;
-    background-color: black;   
-    justify-content: space-around;
-    
-    align-content:flex-start;
-    padding-top: 40px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;    
   }
-
-.llamaP{
-    padding-top: -40px;
-  }
+  .item-footer.idioma{
+    height: 60px;
+}
 .foot-list{
     display: flex;   
 }
-
 .foot-list ul li{
     margin: 3px 0;
     border:none;  
     color:#000;   
 }
-
 .foot-list a{
     text-align: center;
     text-decoration: none;
@@ -231,7 +219,176 @@ li a{
     font-size: 13px;
     text-align:left
 }
+.copy{
+    color: #757575;
+    font-size: 1em;
+}
+/***********************************************/
+@media only screen and (max-width: 540px ) {  
 
+    header{
+        height: 540px;    
+    }
+    img {
+        width: 100%;
+      } 
+ .logo{
+    flex-grow:5 ;
+ }
+ 
+ .idioma{
+    flex-grow:1 ;
+ } 
+ 
+ .titulo-prin{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;          
+    padding: 70px 0;
+    max-width: 500px;
+    margin: 0 auto;
+ }
+
+ .flexitem-nav-tit.title>h1 {     
+    font-size: 28px;
+    text-align: center;
+  }
+
+ .subtitle{
+    max-width: 640px
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+h3{
+    font-size: 18px;
+  }
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email_input{
+    height: 40px;
+    width: 486px;
+}
+  .btn-red
+ {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #f40612 ; 
+    border: none;   
+    height: 40px;
+    width: 122px;
+ }
+ .btn-red a{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+ }
+ .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #FFFFFF;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+.flex-content.info{
+    display: flex;
+    flex-direction: column;  
+    width: 70%;
+    align-items: center;    
+    order:1;
+}
+.flex-content.info>.title {     
+    font-size: 26px;
+    font-weight: bold;
+    
+  }
+ .flex-content.info>.subtitle {   
+    padding-top: 10px;  
+    font-size: 16px;
+    font-weight: bold;
+ }
+ 
+ .flex-content.img{
+    order:2;
+ }
+
+ .preguntas{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center; 
+    width:100%;   
+}
+.preguntas>.title {     
+    font-size: 26px;
+    font-weight: bold;
+    
+  }
+.flexitem-nav-tit.email{
+    margin-bottom: 60px;
+}
+
+.list ul li{
+    margin: 3px 0;
+    border:none;
+    background-color:#303030;
+    color:#000;  
+   
+}
+.list span{
+    font-size: 18px;
+    text-align:left
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.question.title-email{
+    text-align: center;
+}
+
+.footer {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;    
+  }
+  .item-footer.idioma{
+    height: 60px;
+}
+.foot-list{
+    display: flex;   
+}
+.foot-list ul li{
+    margin: 3px 0;
+    border:none;  
+    color:#000;   
+}
+.foot-list a{
+    text-align: center;
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+    text-align:left
+}
+.copy{
+    color: #757575;
+    font-size: 1em;
+}
+}
 
 
 

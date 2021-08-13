@@ -1,10 +1,10 @@
-body{
+/*body{
     margin: 0;
     font-family: 'HP Simplified Regular','Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: white;
 }
 .msglobal{
-    /*position: static;*/
+  
     background-color: white;
     width: 100%;   
 }
@@ -44,11 +44,6 @@ body{
     vertical-align: middle;
     transition: background-color 1s ease-out;
 }
-.contenedor-header{
-    display: flex;
-    background-color:#ffff;
-    flex-direction: column;
-}
 
 .reg:hover {
     background-color: #bf3854;
@@ -58,8 +53,12 @@ body{
 .busqueda{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 .input-text{
     height: 40px;
@@ -83,6 +82,8 @@ ul {
     text-align: center;
     padding: 14px 4px;
     text-decoration: none;
+    font-size: 15px;
+
   }
   
   li a:hover {
@@ -91,8 +92,21 @@ ul {
 
 .banner{
     background-color: #f3f3f3; 
-    height: 52px;; 
-  }
+    height: 52px;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+ }
+ .in{
+    margin-left: 8rem;
+    font-size: 15px;
+    color: #a1a1a1;
+    
+ }
+ .oferta{
+    font-size: 14px;
+    color: black;
+ }
 
 .anun-prin.titulo{
   background-color: #12599E;
@@ -111,7 +125,7 @@ ul {
 }
 
 .anun-prin.info.anun{
- /*   display: flexbox;*/
+ 
     flex-direction: column;
     background-color: #7fb0dc;
     flex-grow: 1;
@@ -138,13 +152,7 @@ ul {
     background-color: #f3f3f3;
 }
 
-  /*
-.banner{
-    background-color: yellow;
-}
-main{
-    background-color:black;
-}*/
+
 
 @media screen and (max-width: 600px) {
 
@@ -158,6 +166,12 @@ main{
     .menu{
         display:none;
     }
+    .in{
+        margin-left: 2rem;
+        font-size: 15px;
+        color: #a1a1a1;
+        
+     }
    .oferta{
         display:none;
     }
@@ -188,5 +202,5 @@ main{
 
 
 
-}
+}*/
 

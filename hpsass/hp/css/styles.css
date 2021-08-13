@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'HP Simplified Regular','Helvetica Neue',Helvetica,Arial,sans-serif;
-  background-color: white;
+  background-color: blanco;
 }
 
 .msglobal {
@@ -106,7 +106,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffff;
+  background-color: white;
 }
 
 ul li {
@@ -123,7 +123,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #ffff;
+  background-color: white;
 }
 
 .banner {

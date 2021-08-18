@@ -1,0 +1,69 @@
+
+.header{
+    background-color: greenyellow;
+    border-style: solid;
+    border-color: white;
+    height: 50px ;
+}
+
+.article{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+    margin-top: 5px;
+}
+.title{
+    background-color: #FF33E9;
+    border-style: solid;
+    border-color: white;
+    height: 50px ;
+    margin-top: 5px;
+}
+.section{
+    background-color: #FFB533;
+    border-style: solid;
+    border-color: white;
+    height: 100px ;
+    margin-top: 5px;
+}
+
+.notice{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+    height: 35px ;
+    margin-top: 5px;
+}
+
+.interno{   
+    background-color: white;
+    margin-top: 5px;
+}
+
+.foot{
+    background-color: greenyellow;
+    border-style: solid;
+    border-color: white;
+    height: 25px ;
+    margin-top: 5px;
+}
+
+.rojo{
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+    margin-top: 5px;
+}
+
+.azul{
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+    margin-top: 5px;
+}
+.verde{
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+    margin-top: 5px;
+}

@@ -29,7 +29,6 @@ body{
       }  
 }
 
-
 .reg{
   display: inline-block;
   background-color: $blanco;
@@ -125,8 +124,7 @@ ul {
         font-size: #{$size};
         color: $blanco;
         text-align: left;
-    }
-   
+    }   
   }
  .anun-prin.info{
       display: flex;

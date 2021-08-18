@@ -1,0 +1,39 @@
+/*.left {
+    display:none;
+}
+.right{
+    display:none;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+
+}*/
+
+.left{
+    background-color: aqua;
+}
+.central{
+    background-color: red;
+    }
+.right{
+        background-color:violet;
+        }
+    /*
+@media (min-width: 576px) { 
+    
+    .left {
+        display:block;
+    }
+
+    }
+
+
+@media (min-width: 768px) { 
+
+    .right {
+        display:block;
+    }
+ }
+*/

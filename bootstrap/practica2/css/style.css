@@ -1,0 +1,50 @@
+body{
+    font-family: Roboto,sans-serif;
+} 
+
+
+
+ .img-pad{
+    margin-top: 5px;
+}
+
+ img {
+    width: 310px; 
+    height: 390px;
+    
+    object-fit: cover;
+    }
+    
+@media  (min-width: 540px) {
+    img {
+        width: 620px;
+        height: 493px;
+       
+     }
+
+@media  (min-width: 790px) {
+    img {
+        width: 741px;
+        height: 930px;        
+       }
+     }
+
+
+@media  (min-width: 997px) {     
+       .prin>img{
+            width: 412px;
+            height: 816px;   
+           }
+
+        .sec>img{
+            width: 198px;
+            height: 368px;
+        }
+
+        .thrd>img{
+              width: 412px;
+              height: 432px;
+        }
+      }
+
+

@@ -1,0 +1,83 @@
+ #aside-right {
+    /*RYHI*/
+    background-color: #eef0f1;
+    margin-left: 10px;
+    margin-right: 120px;
+    flex-wrap: wrap;
+  }
+  
+.ar_medidas{
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em;
+    margin-top: 10px;
+    background-color: #f2f6f8;
+    box-shadow: 0 0 0 1px #dee0df;
+  
+  }
+  
+  .ar_art{
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0 0.4px #dee0df;
+  }
+  
+  .ar_art:hover {
+    background-color: #FFF;
+  }
+  
+  .ar_href{
+    color: black;
+    text-decoration:none;
+  }
+  
+  .ar_href:hover{
+    color: rgb(88, 88, 226);
+  }
+  
+  .ar_color_secundary{
+    color: #64707d;
+  }
+  
+  .ar_sec2_header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+  }
+  .ar_sec2_header_strong{
+    font-size: 1.125rem;
+    
+  }
+  
+  .ar_sec2_header_small{
+    font-size: 0.875rem;
+    color:rgb(88, 88, 226);
+    text-decoration: none;
+  }
+  
+  .butomm_text{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box_link_secundary{
+    box-sizing: border-box;
+  }
+  
+  .text_link_secundary{
+    background-color: #3b49df;
+    border-color: #3b49df;
+    color: white;
+    font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    border: 1px solid #d2d6db;
+    text-align: center;
+    line-height: 1;
+    border-radius: 5px;
+    display: inline-block;
+  }

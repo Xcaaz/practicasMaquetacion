@@ -1,0 +1,56 @@
+
+ main {
+  /*width: 100%;*/ 
+  width: 650px; 
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    .posts-menu {
+       display:none;      
+      } 
+    h1{
+      font-size:18px ;
+      color: #202428;
+    }
+    .feed{
+      color:$negro-dev;
+      background-color:#f9fafa ;
+      font-size: 16px;
+      width: 100px;
+      height: 40px;
+      margin: 0px 0px 0px 8px;
+      padding: 7px 32px 7px 8px;
+      border-radius: 6px;
+    } 
+  }
+
+  @media (min-width: 640px){   
+    
+    .header-menu{    
+    .posts-menu {
+      @include center-item();     
+      display:flex;
+      justify-content: space-between;
+      font-size: 16px;        
+       &>a{
+       padding: 10px 5px 10px 5px;
+       margin-left: 5px;  
+       margin-right: 5px;  
+       text-decoration: none;       
+       color: $negro-dev;
+       &:hover{
+         border:0;
+         background-color: #c2cedd ;
+         border-radius: 10px;
+         color:#3b49df;         
+        }
+       }
+     }
+    .feed{
+        display: none;
+     }
+    }
+  }    

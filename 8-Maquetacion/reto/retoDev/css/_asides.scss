@@ -1,0 +1,39 @@
+aside{
+  display: none;
+}
+
+@media (min-width: 768px){
+  
+  #aside-left {
+    display: block;
+    align-items: flex-start;  
+    width: 235px;
+    min-width: 235px;
+    background-color: #FFF;
+    //border: 1px solid lightgray;
+  }
+
+}
+
+@media (min-width:1024px){
+  #container{
+    margin-left: 60px;
+  }  
+
+
+  #aside-left {
+    width: 205px;
+    margin-left: 100px;
+    min-width: 205px;
+    background-color: #FFF;
+    //border: 1px solid lightgray;
+  }
+  
+  #aside-right {
+    display: block;
+    width: 320px;
+    min-width: 320px;
+    background-color: #FFF;
+    //border: 1px solid lightgray;
+  }
+}
